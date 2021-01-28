@@ -1,0 +1,17 @@
+m = "Mama"
+f = "Fatima"
+b = "Baba"
+question = input(
+    "Enter Code! Please select your code from these options: b/m/f :")
+if question == "f":
+    print("hello aunty... I mean Fatima... lolzies")
+elif question == "m":
+    print("Hey mama jaani, welcome!")
+else:
+    question == "b"
+    print("Hey baba jaani! Hope you had a safe flight!")
+
+birthyear = int(input("what is your birth year?"))
+currentyear = "2021"
+age = int(currentyear) - int(birthyear)
+print("you are", age, "years old")
